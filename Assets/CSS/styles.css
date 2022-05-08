@@ -24,11 +24,20 @@ nav{
     flex: 1;
     text-align: right;
 }
+.nav-links2{
+    flex: 1;
+    text-align: right;
+}
 .nav-links ul li{
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
+    
+}
+#nav-bar{
+    background-color: rgb(49, 45, 45);
+    height: 200px;
 }
 .nav-links ul a{
     text-decoration: none;
@@ -127,7 +136,7 @@ hr.line {
 }
 
 .truck img {
-    width: 340px;
+    width: 300px;
 }
 
 
@@ -241,4 +250,67 @@ section.footerlinks {
 
 p.p1 {
     color: #fff;
+}
+
+.first-section-nav{
+  float: right;
+}
+
+/* PAGE 2 CSS*/
+
+.first-section-nav{
+display: flex;
+justify-content: space-around;
+height: 140px;
+align-items: center;
+background: #000;
+color: #fff;
+}
+
+.property-page{
+    width: 300px;
+    height: auto;
+
+}
+.features_section{
+margin-top: 200px;
+margin-left: 50px;
+}
+.conditiong{
+    padding-top: 20px;
+    width: 80%;
+}
+.features_section h4{
+    font-size: 40px;
+    margin-left: 30px;
+    font-weight: 200;
+}
+.features_section ul{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.features_section li{
+    display: flex;
+    margin-top: 2px;
+    padding-bottom: 30px;
+}
+.description{
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.description h4{
+    font-size: 40px;
+    margin-left: 30px;
+    font-weight: 200;
+}
+.conditiong p{
+    padding-top: 20px;
+    justify-content: center;
+    font-size: medium;
+}
+.description ul{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
 }
